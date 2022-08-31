@@ -1,2 +1,2 @@
 #!/bin/bash
-tmp$ pwd cd /tmp cd ..
+tmp$ pwd cd /var tmp$ cd ..
