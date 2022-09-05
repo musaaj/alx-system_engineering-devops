@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -path "*.js" | rm
+find . -path "*.js"|xargs rm
