@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -path "*.c" | rm
+find . -path "*.js" | rm
