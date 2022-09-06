@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -al|grep ^d|wc -l
+ls -l|grep ^d|wc -i
+l
