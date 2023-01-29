@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#prints file information
+sch="school"
+if [ -e "$sch" ];then
+	echo "$sch file exists"
+	if [ ! -s "$sch" ];then
+		echo "$sch is empty"
+
+	else
+		echo "$sch is not empty"
+		if [ -f "$sch" ];then
+			echo "$sch is a regular file"
+		fi
+	fi
+else
+	echo "$sch file does not exists"
+fi
