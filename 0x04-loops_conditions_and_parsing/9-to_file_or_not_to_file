@@ -4,10 +4,10 @@ sch="school"
 if [ -e "$sch" ];then
 	echo "$sch file exists"
 	if [ ! -s "$sch" ];then
-		echo "$sch is empty"
+		echo "$schi file is empty"
 
 	else
-		echo "$sch is not empty"
+		echo "$sch file is not empty"
 		if [ -f "$sch" ];then
 			echo "$sch is a regular file"
 		fi
