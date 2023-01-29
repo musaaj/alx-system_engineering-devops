@@ -3,7 +3,7 @@
 sch="school"
 if [ -e "$sch" ];then
 	echo "$sch file exists"
-	if [ ! -s "$sch" ];then
+	if [ -s "$sch" ];then
 		echo "$sch is empty"
 
 	else
