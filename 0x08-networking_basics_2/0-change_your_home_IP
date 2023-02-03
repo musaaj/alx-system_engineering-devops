@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#modify ip name
+echo -e "127.0.0.2\tlocalhost" > /etc/hosts
+echo -e "8.8.8.8\tfacebook.com" >> /etc/hosts
