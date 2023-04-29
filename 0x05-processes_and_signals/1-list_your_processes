@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#print list of current running process
+
+top
